@@ -8,6 +8,22 @@ body{
  background-color: #313638;
  font-family: 'Nixie One', cursive;
 }
+nav ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0 1rem;
+    margin: 1rem;
+}
+li{
+    padding: 0 1rem;
+     font-size: 1.2rem;
+
+}
+a{
+    color:#E0DFD5; 
+}
 label{
     display: block;
     font-size: 1.4rem;
