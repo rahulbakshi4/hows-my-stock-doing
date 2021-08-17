@@ -85,7 +85,7 @@ input{
 }
 @media screen and (max-width:600px) {
     .container{
-        height: 90vh;
+        height: 75vh;
         flex-direction: column;
         justify-content: center;
         margin: 1rem;
