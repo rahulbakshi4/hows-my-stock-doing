@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Abril+Fatface&family=Merriweather+Sans:wght@600&display=swap');
+
+html,body{
+    margin:0;
+    padding: 0;
+}
+body{
+ background-color: #313638;
+ font-family: 'Nixie One', cursive;
+}
+label{
+    display: block;
+    font-size: 1.4rem;
+    padding: 0.75rem;
+    margin-right: 4rem;
+    color:#313638 ;
+    
+   font-family: 'Merriweather Sans', sans-serif;
+}
+input{
+ width: 15rem;
+ border:none;
+ border-bottom:2px solid #313638;
+ background:transparent;
+ font-size: 1.1rem;
+}
+.intro-div{
+    padding: 1rem;
+    margin: 1rem;
+    color: #E0DFD5;
+}
+.intro-div p{
+    font-size: 1.3rem;
+
+
+} 
+    .container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:#E0DFD5;
+    background-size: cover;
+    height: 65vh;
+    border-radius:1rem;
+    margin:2rem;
+
+}
+.cal-div{
+ 
+    width: 50%;
+    height:80%;
+    margin:1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#check-btn{
+    padding: 0.75rem 1rem;
+    margin: 1.5rem;
+    font-size: 1.25rem;
+    width: 6rem;
+    border-radius: 8px;;
+
+}
+#check-btn:hover{
+    background-color: #313638;
+    color: #E0DFD5;
+}
+#output-div{ 
+   width: 50%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:2rem;
+   font-size: 2.5rem;
+
+  
+   font-family: 'Merriweather Sans', sans-serif;
+}
+::placeholder{
+    opacity: 40%;
+}
+@media screen and (max-width:600px) {
+    .container{
+        height: 90vh;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+
+     label{
+         margin-right: 0px;
+     }
+    .cal-div{
+        width: 80%;
+        align-items: center;
+    }
+     
+    input{
+        width:14rem;
+    }
+
+    #output-div{
+        font-size: 1.3rem;
+        width:80%
+    }
+    ::placeholder{
+        text-align: center;
+    }
+    #check-btn{
+        padding: 0.5rem 0.5rem;
+    }
+
+}

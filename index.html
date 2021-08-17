@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>How's My Stock Doing</title>
+</head>
+<body>
+      <div class="intro-div">
+        <h1>How's My Stock Doing</h1>
+        <p>Check profit or loss on your stocks</p>
+  
+      </div>
+      <div class="container" id="container">
+        <div class="cal-div">
+            <label for="purchase-price">Purchase Price:
+                <input type="number" name="" id="purchase-price" placeholder="Enter the cost price of stock" min="1" required />
+            </label>
+            <label for="stock-qty">Stock Quantity:
+             <input type="number" name="" id="stock-qty" placeholder="Enter the quantity of stock"  min="1" required />
+         </label>
+         <label for="current-price">Current Price: 
+             <input type="number" name="" id="current-price" placeholder="Enter the current stock price" min="0" required />
+         </label>
+         <button  id="check-btn">Check</button> 
+       
+       </div>
+       <div id="output-div">
+          
+       </div>
+
+      </div>
+     
+    <script src="script.js"></script>
+</body>
+</html>
